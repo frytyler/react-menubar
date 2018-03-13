@@ -1,0 +1,31 @@
+{
+    "name": "react-menubar",
+    "version": "0.0.1",
+    "description": "A Skeleton Menu Bar App in React",
+    "main": "./dist/index.js",
+    "license": "MIT",
+    "private": false,
+    "author": "Tyler Fry <fry.tyler@gmail.com>",
+    "scripts": {
+        "start": "electron .",
+        "watch:electron": "parcel watch index.js --target=electron",
+        "watch:react": "parcel watch main.js --target=node"
+    },
+    "dependencies": {
+        "auto-launch": "^5.0.5",
+        "dotenv": "^5.0.1",
+        "menubar": "^5.2.3"
+    },
+    "peerDependencies": {
+        "react": "^16.2.0",
+        "react-dom": "^16.2.0"
+    },
+    "devDependencies": {
+        "babel-preset-react": "^6.24.1",
+        "electron": "^1.8.3",
+        "parcel-bundler": "^1.6.2",
+        "prettier": "^1.11.1",
+        "react": "^16.2.0",
+        "react-dom": "^16.2.0"
+    }
+}
