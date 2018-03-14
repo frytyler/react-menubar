@@ -10,7 +10,12 @@ $ yarn start
 
 ## Developing
 
-If you are developing then you'll need to run a few commands to bundle the JS. Depending if you are making changes to the backend (electron) or the frontend (react) there are 2 different commands to run. Of course if you are working on everything then run both. 
+If you are developing then you have a few command options to bundle the JS. Depending if you are making changes to the backend (electron) or the frontend (react) there are 2 different commands to run. There is a single command exposed that will bundle both
+
+_Watch All_
+```shell
+$ yarn watch
+```
 
 _Electron_
 ```shell

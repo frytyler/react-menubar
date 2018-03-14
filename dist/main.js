@@ -85,7 +85,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 const Main = () => _react2.default.createElement(
   'div',
   null,
-  'Hello World!!! You made it!'
+  'Hello World!!!!!!!!! You made it!'
 );
 
 (0, _reactDom.render)(_react2.default.createElement(Main, null), document.getElementById('main'));
